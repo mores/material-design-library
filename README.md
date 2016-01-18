@@ -31,6 +31,23 @@ dependencies {
 }
 ```
 
+**or for android-maven-plugin users** Add the dependency in your **pom.xml**.
+
+```xml
+<repository>
+	<id>jcenter-repo</id>
+	<name>Jcenter Repository</name>
+	<url>http://jcenter.bintray.com/</url>
+	<layout>default</layout>
+</repository>
+
+<dependency>
+	<groupId>com.blunderer</groupId>
+	<artifactId>materialdesignlibrary</artifactId>
+	<version>2.0.4</version>
+</dependency>
+```
+
 **2.** In your **values/styles.xml** file, change the parent style and add your own **colorPrimary/colorPrimaryDark** colors:
 
 ```xml
